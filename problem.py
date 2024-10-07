@@ -35,7 +35,7 @@ class Problem:
 
 
 problems, answers = "", ""
-with open("problems.txt", 'r') as problem:
+with open("problems.txt", 'r', encoding='utf-8') as problem:
     for line in problem:
         problems += line
 with open("answers.txt", 'r', encoding='utf-8') as answer:

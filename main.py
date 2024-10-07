@@ -35,7 +35,7 @@ if __name__ == '__main__':
                 print(f"（{Type[problem.type]}）{problem.id}、{problem.content}")
                 input_ = input().upper()
                 point = problem.point(input_)
-                if input_ == "Exit":
+                if input_ == "EXIT":
                     break
                 total_problem += 1
                 total_point += point
@@ -88,7 +88,7 @@ if __name__ == '__main__':
             print(f"（{Type[problem.type]}）{total_problem+1}、{problem.content}")
             input_ = input().upper()
             point = problem.point(input_)
-            if input_ == "Exit":
+            if input_ == "EXIT":
                 break
             total_problem += 1
             total_point += point
